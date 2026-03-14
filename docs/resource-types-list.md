@@ -1965,6 +1965,25 @@ to add a resource type that you've made, make a Pull Request in the
               ```
           </td>
       </tr>
+      <tr>
+          <td class="hidden-search-field">
+              forgejo codeberg status pull request comments
+          </td>
+          <td class="name">
+              <a href="https://codeberg.org/aniva/forgejo-concourse">forgejo</a>
+          </td>
+          <td class="description">
+              Interact with Forgejo pull requests, comments, and statues. Works with Codeberg.org.  
+          </td>
+          <td class="pipeline-yaml">
+              ```yaml
+              - name: forgejo
+                type: registry-image
+                source:
+                  repository: URI TO PULL RESOURCE IMAGE
+              ```
+          </td>
+      </tr>
     </tbody>
   </table>
 
